@@ -22,10 +22,11 @@ Follow these steps to try HederaCodes:
    cp .env.example .env
    ```
    
-   Edit the `.env` file and add your Hedera credentials:
+   Edit the `.env` file and add your Hedera and Gemini credentials:
    ```
    HEDERA_OPERATOR_ID=0.0.XXXXX
    HEDERA_OPERATOR_KEY=302e...
+   GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
    ```
 
 5. **Start the development server**
